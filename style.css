@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Necto Mono;
+  src: url(necto-mono.woff2);
+}
+
+body {
+	font-family: Necto Mono;
+	font-size: 32px;
+	line-height: 1.5;
+
+	background-color: rgb(236, 233, 227);
+	color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+section.panner {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section.panner div.world {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 600px);
+  grid-gap: 30px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 24px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section div.world {
+    grid-gap: 32px;
+  }
+
+  section img {
+    width: 300px;
+  }
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 9999;
+  display: none; /* Initially hidden */
+}
+
+.image-container {
+  position: relative;
+}
+
+#overlay.active {
+  display: block;
+}
