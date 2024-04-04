@@ -47,10 +47,8 @@ section.panner div.world {
 }
 
 section.panner div.world img {
-  max-width: 100%; /* Ensure image doesn't exceed 250px */
-  max-height: 100%; /* Ensure image doesn't exceed 250px */
-  width: 100%; /* Fill the grid item */
-  height: 100%; /* Fill the grid item */
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
