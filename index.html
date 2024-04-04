@@ -12,61 +12,25 @@
 <body>
 
 <header>
-    <h1>Capturing Medieval London: A Trail</h1>
-    <a href="#">About</a>
+  <h1 class="float-title">Capturing Medieval London: A Trail</h1>
+    <nav class="menu">
+      <a class="menu-item" href="#">Home</a>
+      <a class="menu-item" href="#">About</a>
+      <a class="menu-item" href="#">Contact</a>
+    </nav>
 </header>
 
 <section class="panner">
     <div class="world">
-        <div class="image-container">
-            <img src="/Images/George Clayton - Fuji X100V/image0.jpeg" alt="Image 0" data-artist="George Clayton" data-location="London" data-camera="Fuji X100V">
-            <div class="caption">Caption for Image 0</div>
-        </div>
-        <div class="image-container">
-            <img src="/Images/George Clayton - Fuji X100V/image1.jpeg" alt="Image 0" data-artist="George Clayton" data-location="London" data-camera="Fuji X100V">
-            <div class="caption">Caption for Image 1</div>
-        </div>
-        <div class="image-container">
-            <img src="/Images/George Clayton - Fuji X100V/image2.jpeg" alt="Image 0" data-artist="George Clayton" data-location="London" data-camera="Fuji X100V">
-            <div class="caption">Caption for Image 2</div>
-        </div>
-        <div class="image-container">
-            <img src="/Images/George Clayton - Fuji X100V/image3.jpeg" alt="Image 0" data-artist="George Clayton" data-location="London" data-camera="Fuji X100V">
-            <div class="caption">Caption for Image 3</div>
-        </div>
-        <div class="image-container">
-            <img src="/Images/George Clayton - Fuji X100V/image4.jpeg" alt="Image 0" data-artist="George Clayton" data-location="London" data-camera="Fuji X100V">
-            <div class="caption">Caption for Image 4</div>
-        </div>
-		    <!-- <img src="/Images/George Clayton - Fuji X100V/image1.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image2.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image3.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image4.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image0.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image1.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image2.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image3.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image4.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image0.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image1.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image2.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image3.jpeg">
-		    <img src="/Images/George Clayton - Fuji X100V/image4.jpeg"> -->
-		    <!-- <img src="image2.jpg">
-		    <img src="image3.jpg">
-		    <img src="image4.jpg">
-		    <img src="image5.jpg">
-		    <img src="image6.jpg">
-		    <img src="image7.jpg">
-		    <img src="image8.jpg">
-		    <img src="image9.jpg">
-		    <img src="image10.jpg">
-		    <img src="image11.jpg">
-		    <img src="image12.jpg"> -->
-		  </div>
-		</section>
+      <!-- This is where the images will be dynamically inserted -->
+    </div>
+</section>
 
-		<script src="pan.js"></script>
-    <script src="script.js"></script>
-	</body>
+<div class="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg">
+</div>
+
+<script src="pan.js"></script>
+<script src="lightbox.js"></script>
+</body>
 </html>
