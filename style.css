@@ -130,3 +130,22 @@ section.panner div.world img {
   max-width: 80%;
   max-height: 80%;
 }
+
+/* MOUSE TRAIL */
+
+svg.trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+svg.trail path {
+  fill: none;
+  stroke: rgba(207, 0, 0, 0.75);
+  stroke-width: 8px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1%;
+}
