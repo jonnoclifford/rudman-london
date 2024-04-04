@@ -11,30 +11,29 @@
 </head>
 <body>
 
-  <svg class="trail" viewBox="0 0 1 1">
-    <path d="" />
-  </svg>
+<svg class="trail" viewBox="0 0 1 1">
+  <path d="" />
+</svg>
 
 <header>
   <h1 class="float-title">Capturing Medieval London: A Trail</h1>
-    <nav class="menu">
-      <a class="menu-item" href="#">Home</a>
-      <a class="menu-item" href="#">About</a>
-      <a class="menu-item" href="#">Contact</a>
-    </nav>
+  <nav class="menu">
+    <a class="menu-item" href="#">Home</a>
+    <a class="menu-item" href="#">About</a>
+    <a class="menu-item" href="#">Contact</a>
+  </nav>
 </header>
 
 <section class="panner">
-    <div class="world">
-      <!-- This is where the images will be dynamically inserted -->
-    </div>
+  <div class="world">
+    <!-- This is where the images will be dynamically inserted -->
+  </div>
 </section>
 
 <div class="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg">
+  <img id="lightboxImg">
+  <div id="lightboxCaption" class="caption"></div> <!-- New: Adding a div for caption -->
 </div>
-
-
 
 <script src="pan.js"></script>
 <script src="lightbox.js"></script>

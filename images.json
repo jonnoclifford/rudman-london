@@ -1,32 +1,184 @@
 {
   "images": [
-    "./Images/George Clayton - Fuji X100V/GeorgeC_01.jpg",
-    "./Images/George Clayton - Fuji X100V/GeorgeC_02.jpg",
-    "./Images/George Clayton - Fuji X100V/GeorgeC_03.jpg",
-    "./Images/George Clayton - Fuji X100V/GeorgeC_04.jpg",
-    "./Images/George Clayton - Fuji X100V/GeorgeC_05.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_01.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_02.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_03.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_04.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_05.jpg",
-    "./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_06.jpg",
-    "./Images/Helen Gardener - Mobile Phone/HelenG_01.jpg",
-    "./Images/Helen Gardener - Mobile Phone/HelenG_02.jpg",
-    "./Images/Helen Gardener - Mobile Phone/HelenG_03.jpg",
-    "./Images/Helen Gardener - Mobile Phone/HelenG_04.jpg",
-    "./Images/Helen Gardener - Mobile Phone/HelenG_05.jpg",
-    "./Images/Lara Bond - Mobile Phone/LaraB_01.jpg",
-    "./Images/Lara Bond - Mobile Phone/LaraB_02.jpg",
-    "./Images/Lara Bond - Mobile Phone/LaraB_03.jpg",
-    "./Images/Lara Bond - Mobile Phone/LaraB_04.jpg",
-    "./Images/Lara Bond - Mobile Phone/LaraB_05.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_01.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_02.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_03.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_04.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_05.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_06.jpg",
-    "./Images/Maia Blumberg - Mobile Phone/MaiaB_07.jpg"
+    {
+      "src":"./Images/George Clayton - Fuji X100V/GeorgeC_01.jpg",
+      "photographer":"George Clayton",
+      "camera":"Fuji X100V"
+    },
+    {
+      "src":"./Images/George Clayton - Fuji X100V/GeorgeC_02.jpg",
+      "photographer":"George Clayton",
+      "camera":"Fuji X100V"
+    },
+    {
+      "src":"./Images/George Clayton - Fuji X100V/GeorgeC_03.jpg",
+      "photographer":"George Clayton",
+      "camera":"Fuji X100V"
+    },
+    {
+      "src":"./Images/George Clayton - Fuji X100V/GeorgeC_04.jpg",
+      "photographer":"George Clayton",
+      "camera":"Fuji X100V"
+    },
+    {
+      "src":"./Images/George Clayton - Fuji X100V/GeorgeC_05.jpg",
+      "photographer":"George Clayton",
+      "camera":"Fuji X100V"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_01.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_02.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_03.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_04.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_05.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Catherine Jaskowiak - Mobile Phone/CatherineJ_06.jpg",
+      "photographer":"Catherine Jaskowiak",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Helen Gardener - Mobile Phone/HelenG_01.jpg",
+      "photographer":"Helen Gardener",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Helen Gardener - Mobile Phone/HelenG_02.jpg",
+      "photographer":"Helen Gardener",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Helen Gardener - Mobile Phone/HelenG_03.jpg",
+      "photographer":"Helen Gardener",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Helen Gardener - Mobile Phone/HelenG_04.jpg",
+      "photographer":"Helen Gardener",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Helen Gardener - Mobile Phone/HelenG_05.jpg",
+      "photographer":"Helen Gardener",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Lara Bond - Mobile Phone/LaraB_01.jpg",
+      "photographer":"Lara Bond",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Lara Bond - Mobile Phone/LaraB_02.jpg",
+      "photographer":"Lara Bond",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Lara Bond - Mobile Phone/LaraB_03.jpg",
+      "photographer":"Lara Bond",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Lara Bond - Mobile Phone/LaraB_04.jpg",
+      "photographer":"Lara Bond",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Lara Bond - Mobile Phone/LaraB_05.jpg",
+      "photographer":"Lara Bond",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_01.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_02.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_03.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_04.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_05.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_06.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Maia Blumberg - Mobile Phone/MaiaB_07.jpg",
+      "photographer":"Maia Blumberg",
+      "camera":"Mobile Phone"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_01.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_02.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_03.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_04.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_05.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_06.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_07.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    },
+    {
+      "src":"./Images/Jonathan Clifford - Mamiya 7ii/JonathanC_08.jpg",
+      "photographer":"Jonathan Clifford",
+      "camera":"Mamiya 7ii"
+    }
   ]
 }

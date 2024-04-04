@@ -5,8 +5,9 @@
 
 body {
   font-family: Necto Mono;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.5;
+  font-weight: 600;
   background-color: #fffeef;
   color: #1d1d1d;
 }
@@ -131,6 +132,10 @@ section.panner div.world img {
   max-height: 80%;
 }
 
+#lightboxCaption {
+  padding-top: 10px;
+  font-size: 18px;
+}
 /* MOUSE TRAIL */
 
 svg.trail {
