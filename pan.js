@@ -37,13 +37,15 @@ const animate = function () {
   requestAnimationFrame(animate)
 }
 
+// Check if the viewport width is greater than 768 pixels
+if (window.innerWidth > 768) {
+  animate()
 
-animate()
+  document.addEventListener("mousemove", function (event) {
+    updateAim(event)
+  })
 
-document.addEventListener("mousemove", function (event) {
-  updateAim(event)
-})
-
-document.addEventListener("touchmove", function (event) {
-  updateAim(event)
-})
+  document.addEventListener("touchmove", function (event) {
+    updateAim(event)
+  })
+}

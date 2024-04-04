@@ -156,6 +156,12 @@ svg.trail path {
   stroke-dasharray: 1%;
 }
 
+@media (max-width: 768px) {
+  svg.trail {
+    display: none;
+  }
+}
+
 /* MODAL */
 
 .modal {
